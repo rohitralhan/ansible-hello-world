@@ -1,0 +1,8 @@
+---
+- name: Create OCS Storage on OCP
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+  - name: Hello World!
+    shell: echo "Hi! Tower is working."
